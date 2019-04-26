@@ -1,6 +1,8 @@
 ## Welcome to GitHub Pages
 
-### click here see the demo
+### click here see the demo1 : [cascadeMenu1]()
+
+### click here see the demo2 : [cascadeMenu2]()
 
 You can use the [editor on GitHub](https://github.com/weiminfu/CascadeMenuDemo/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
