@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三级联动菜单cascade</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <style>
+        .menu{
+            margin: 20px auto;
+            padding: 20px;
+            width: 640px;
+            height: 50px;
+            font-size:0;/*消除子级元素因换行产生的间隙*/
+            border: 1px solid blue;
+        }
+        .menu select{
+            display: inline-block;
+            padding: 0 10px;
+            width: 200px;
+            height: 50px;
+            font-size:24px;
+            line-height: 50px;
+            margin-right: 20px;
+        }
+        .menu select:nth-last-of-type(1){
+            margin-right: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="menu">
+    <select name="region" id="province">
+        <option value="">请选择</option>
+    </select>
+    <select name="region" id="city">
+        <option value="">请选择</option>
+    </select>
+    <select name="region" id="county">
+        <option value="">请选择</option>
+    </select>
+</div>
+
+<!--import js-->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/cascadeMenu1.js"></script>
+</body>
+</html>
